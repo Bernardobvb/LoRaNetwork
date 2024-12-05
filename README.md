@@ -1,2 +1,3 @@
 # LoRaNetwork
-This project consists of a network of Nodes, measuring temperature, humidity and brightness (environment variables), and sending this measures to the Gateways via the radio communication protocol called LoRa (868 MHz - Europe Standard)
+This project consists of a network of nodes that measure temperature, humidity, and brightness (environmental variables) and transmit these measurements to gateways using the LoRa radio communication protocol (868 MHz - European Standard).
+The project was developed using an NUCLEO-WL55JC1 (STM32) and STM32CubeIDE. The files provided here do not include the entire project but only the main files used to implement the sensors and send the correct packets via the LoRa protocol.
